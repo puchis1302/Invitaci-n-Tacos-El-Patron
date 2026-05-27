@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taquería El Patrón - Gran Inauguración</title>
+    
+    <!-- Para que se vea bien cuando lo compartes en WhatsApp/Facebook -->
+    <meta property="og:title" content="Taquería El Patrón - Gran Inauguración 4 de Junio">
+    <meta property="og:description" content="Todos los tacos al 2x1 a partir de las 2:00 PM. Toca para ver la ubicación.">
+    <meta property="og:image" content="taqueria-el-patron.jpg">
+    <meta property="og:type" content="website">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 10px;
+        }
+        .banner-link {
+            display: block;
+            cursor: pointer;
+        }
+        .banner-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            transition: transform 0.2s ease;
+        }
+        .banner-link:hover .banner-img {
+            transform: scale(1.01);
+        }
+        .info {
+            text-align: center;
+            color: #ccc;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Toda la imagen es un link a Google Maps -->
+        <a href="https://maps.app.goo.gl/jrkSpyQPvqAGKNGd9" target="_blank" class="banner-link">
+            <img src="taqueria-el-patron.jpg" alt="Taquería El Patrón - Gran Inauguración 4 de Junio" class="banner-img">
+        </a>
+        <p class="info">Toca la imagen para abrir la ubicación en Google Maps</p>
+    </div>
+</body>
+</html>
